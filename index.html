@@ -3,27 +3,6 @@ layout: default
 title: Dan Carter
 ---
 
-<section id="lead">
-    <div class="container">
-        <p class="lead text-center">Hi, I'm Dan. I'm a Christian software developer with a fondness for Arsenal FC and
-            banoffee pie.</p>
-    </div>
-</section>
+{% include lead.html %}
 
-<section id="links">
-    <div class="container">
-        <div class="row">
-            {% for item in site.data.frontpage-items %}
-            <div class="col-md">
-                <div class="card">
-                    <div class="card-body">
-                        <h3 class="card-title">{{ item.title }}</h3>
-                        <p class="card-text">{{ item.description }}</p>
-                        <a class="card-link" href="{{ item.link }}">Visit &raquo;</a>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-</section>
+{% include links.html %}
