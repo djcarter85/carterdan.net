@@ -1,0 +1,13 @@
+#social {
+  margin-top: 60px;
+  margin-bottom: 36px;
+
+  a {
+    color: $black;
+    margin-right: 10px;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+}
