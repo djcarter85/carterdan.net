@@ -1,11 +1,17 @@
-#projects {
-  .project {
-    margin-top: 24px;
-    margin-bottom: 24px;
+#projects .project {
+  margin-top: 24px;
+  margin-bottom: 24px;
 
-    h1 {
-      font-size: 54px;
-      font-weight: bold;
+  a {
+    text-decoration: none;
+
+    &:hover {
+      color: $gray-600;
     }
+  }
+
+  h1 {
+    font-size: 54px;
+    font-weight: bold;
   }
 }
