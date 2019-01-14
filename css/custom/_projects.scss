@@ -6,7 +6,8 @@
     text-decoration: none;
 
     &:hover {
-      color: $gray-600;
+      color: $primary;
+      text-decoration: underline;
     }
   }
 
