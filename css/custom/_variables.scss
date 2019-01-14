@@ -1,2 +1,9 @@
 $primary: #0e63ca;
 $font-family-base: Raleway, Georgia, serif;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 740px,
+  xl: 760px
+);
