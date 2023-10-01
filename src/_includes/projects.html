@@ -1,8 +1,8 @@
 <section id="projects" class="text-center px-8 py-8">
   <div class="container max-w-2xl mx-auto flex flex-col gap-2">
     {% for item in projects %}
-    <a href="{{ item.link }}" class="hover:bg-blue-200 p-4 group rounded-xl">
-      <h1 class="font-heading text-4xl font-bold mb-2 text-blue-600 group-hover:underline">
+    <a href="{{ item.link }}" class="hover:bg-blue-200 p-4 rounded-xl">
+      <h1 class="font-heading text-4xl font-bold mb-2 text-blue-600">
         {{ item.title }}
       </h1>
       <p class="font-body text-2xl">{{ item.description }}</p>
