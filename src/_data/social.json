@@ -1,0 +1,12 @@
+[
+  {
+    "title": "GitHub",
+    "url": "https://github.com/djcarter85",
+    "icon": "fab fa-github-square"
+  },
+  {
+    "title": "Email",
+    "url": "mailto:djcarter85@gmail.com",
+    "icon": "fas fa-envelope-square"
+  }
+]
