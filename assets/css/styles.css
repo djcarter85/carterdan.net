@@ -718,10 +718,6 @@ video {
   color: rgb(22 110 162 / var(--tw-text-opacity));
 }
 
-.group:hover .group-hover\:underline {
-  text-decoration-line: underline;
-}
-
 @media (min-width: 768px) {
   .md\:flex-row {
     flex-direction: row;
